@@ -1,0 +1,63 @@
+@import "topNavBar.css";
+@import "card.css";
+@import "pesquisa.css";
+
+
+body {
+    margin:0;
+    font-family: Helvetica, sans-serif;
+}
+
+.cardReceita{
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.containerReceita {
+    width: 30%;
+    float: left;
+    padding: 10px 16px;
+}
+
+.columnReceita {
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.cardReceita:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container h2{
+    display: block;
+}
+
+
+@media screen and (max-width: 650px) {
+    .containerReceita{
+        width: 90%;
+        display: block;
+    }
+}
+
+.ingredienteCSS {
+    display: none;
+    animation-name: abrir;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abrir {
+    from{display: none;}
+    to {display: block;}
+
+}
+h2{
+    font-size: 15px;
+}

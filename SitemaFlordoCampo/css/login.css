@@ -1,0 +1,100 @@
+@import "scrollbar.css";
+@import "topNavBar.css";
+@import "card.css";
+
+body, html {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    margin:0;
+}
+
+
+.bg {
+    box-sizing: border-box;
+    display: flex;
+    min-height: 800px;
+    background-color: whitesmoke;
+    align-items: stretch;
+    justify-content: center;
+}
+.container{
+    box-sizing: border-box;
+    margin: 20px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+    color: #1b7e7e;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.btn-entrar {
+    background-color: #1b7e7e;
+    color: white;
+    font-size: 14px;
+    margin-top: 8px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.btn-novaConta {
+    background-color: #cf702d;
+    color: white;
+    margin-top: 8px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.container .autenticacao{
+    margin-top: 20px;
+}
+.btn-gmail {
+    margin-top: 4px;
+    background-color:#dd4b39;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.btn-facebook {
+    margin-top: 8px;
+    background-color:#3b5998;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.textCenter{
+    text-align: center;
+    color: #24572d;
+}

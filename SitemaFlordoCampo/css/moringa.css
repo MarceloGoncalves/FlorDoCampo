@@ -1,0 +1,24 @@
+@import "receita.css";
+
+.containerReceita {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    padding-top: 10px;
+
+}
+.columnReceita {
+    display: block;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin: auto;
+}
+
+.container h1{
+    padding-top: 20px;
+}
+.cardReceita{
+    cursor: auto;
+}
+ 

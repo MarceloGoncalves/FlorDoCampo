@@ -1,0 +1,22 @@
+@import "receita.css";
+
+.hortaContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.hortaContainer h1{
+    color: #cf702d;
+    padding-top: 20px;
+}
+.hortaContainer h3{
+    text-align: left;
+    padding-left: 20px;
+    color: #026534;
+    letter-spacing: 0.8px;
+    justify-items: auto;
+}
+
+
+
+
